@@ -1,11 +1,11 @@
 # InterpolationJS
-**This little lib works with P5.js**
+**This little lib works with P5.js.**
 ## How to use it ?
 First, add interpolation.js or interpolation.min.js in your index.html, **after you link the P5 script** :
 ```html
 <script src="p5.min.js"></script>
 <script src="interpolation.min.js"></script>
-``
+```
 Then, you have to create an InterpolationManager object :
 ```javascript
 var manager;
@@ -26,7 +26,7 @@ Then, you can launch a new interpolation :
 function setup() {
     //...
     manager = new InterpolationManager();
-    manager.interpolate(from, to, 1000, InterpolationFunctions.easeInOutQuart, function (v) {
+    manager.interpolate(0, 100, 1000, InterpolationFunctions.easeInOutQuart, function (v) {
       console.log("Value : " + v);
     }, function () {
       console.log("Interpolation ended !");
