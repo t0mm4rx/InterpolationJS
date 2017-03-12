@@ -34,12 +34,12 @@ function setup() {
 }
 ```
 The interpolate function takes 6 arguments :
-1. From --
-2. To --
-3. Duration (in milliseconds) --
-4. Interpolation type (see below) --
-5. Progress callback --
-6. Finish callback --
+* From
+* To
+* Duration (in milliseconds)
+* Interpolation type (see below)
+* Progress callback
+* Finish callback
 
 ## Interpolation types
 * InterpolationTypes.linear
