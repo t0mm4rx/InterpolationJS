@@ -42,7 +42,7 @@ The interpolate function takes 6 arguments :
 * Finish callback
 
 ## Interpolation types
-You can take a look at demo.html.
+You can take a look at [this](https://t0mm4rx.github.io/InterpolationJS/).
 * InterpolationTypes.linear
 * InterpolationTypes.easeInQuad
 * InterpolationTypes.easeOutQuad
