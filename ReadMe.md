@@ -42,6 +42,7 @@ The interpolate function takes 6 arguments :
 * Finish callback
 
 ## Interpolation types
+You can take a look at demo.html.
 * InterpolationTypes.linear
 * InterpolationTypes.easeInQuad
 * InterpolationTypes.easeOutQuad
