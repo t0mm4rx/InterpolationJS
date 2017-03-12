@@ -1,5 +1,6 @@
 # InterpolationJS
 **This little lib works with P5.js.**
+[Demo](https://t0mm4rx.github.io/InterpolationJS/)
 ## How to use it ?
 First, add interpolation.js or interpolation.min.js in your index.html, **after you link the P5 script** :
 ```html
