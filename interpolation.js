@@ -1,4 +1,4 @@
-InterpolationFunctions = {
+InterpolationTypes = {
   linear: function (t) { return t },
   easeInQuad: function (t) { return t*t },
   easeOutQuad: function (t) { return t*(2-t) },

@@ -17,7 +17,7 @@ function draw() {
 
 function go() {
   var from = ((x > width / 2) ? width - 50 : 50), to = ((x > width / 2) ? 50 : width - 50);
-  manager.interpolate(from, to, 1000, InterpolationFunctions.easeInOutQuart, function (v) {
+  manager.interpolate(from, to, 1000, InterpolationTypes.easeInOutQuart, function (v) {
     x = v;
   }, function () {
     go();
