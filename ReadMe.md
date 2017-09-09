@@ -27,7 +27,7 @@ Then, you can launch a new interpolation :
 function setup() {
     //...
     manager = new InterpolationManager();
-    manager.interpolate(0, 100, 1000, InterpolationFunctions.easeInOutQuart, function (v) {
+    manager.interpolate(0, 100, 1000, InterpolationTypes.easeInOutQuart, function (v) {
       console.log("Value : " + v);
     }, function () {
       console.log("Interpolation ended !");
